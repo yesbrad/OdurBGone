@@ -4,6 +4,7 @@ import Header from './components/header';
 import Products from './components/products';
 import HeaderImage from './components/headerImage';
 import TitleHeading from './components/titleHeading';
+import About from './components/about';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
 		<TitleHeading title="Product Range"/>
 		<Products />
 		<TitleHeading title="Stockists"/>
-		<TitleHeading title="About"/>
+		  <TitleHeading title="About" />
+		  <About />
 		<TitleHeading title="FAQ" />
 		<TitleHeading title="Contact"/>
     </div>

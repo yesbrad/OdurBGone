@@ -1,0 +1,33 @@
+@import "../../styles/config.scss";
+
+.about-contatiner {
+	// @include DBorder;
+	padding: 1rem;
+	box-sizing: border-box;
+	height: 30rem;
+
+	.about-content {
+		background-color: $black;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		height: 100%;
+
+		.about-content-image {
+			grid-column-start: 1;
+			grid-column-end: 3;
+			@include BackgroundImageCovered("../../images/Header.jpg");
+		}
+
+		.about-content-info {
+			padding: 4rem;
+			box-sizing: border-box;
+			color: white;
+
+			h3 {
+				font-size: 3rem;
+				font-weight: 500;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}
