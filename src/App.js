@@ -3,13 +3,19 @@ import './styles/baseStyles.css';
 import Header from './components/header';
 import Products from './components/products';
 import HeaderImage from './components/headerImage';
+import TitleHeading from './components/titleHeading';
 
 const App = () => {
   return (
     <div>
 		<Header />
 		<HeaderImage />
+		<TitleHeading title="Product Range"/>
 		<Products />
+		<TitleHeading title="Stockists"/>
+		<TitleHeading title="About"/>
+		<TitleHeading title="FAQ" />
+		<TitleHeading title="Contact"/>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+@import "../../styles/config.scss";
+
+.title-heading-contatiner {
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+
+	span {
+		color: $black;
+		font-size: 4rem;
+		font-weight: 700;
+	}
+}
