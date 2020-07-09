@@ -1,0 +1,52 @@
+@import "../../styles/config.scss";
+
+.product-card-container {
+	height: 33.33vw;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	
+	.product-card-content {
+		background-color: $lightGray;
+		@include Fill;
+		@include FlexCenter;
+		position: relative;
+		color: $white;
+
+		img {
+			width: auto;
+			height: 50%;
+		}
+
+		.product-info {
+			position: absolute;
+			width: 100%;
+			left: 0;
+			right: 0;
+			background: rgba($color: #000000, $alpha: 0.7);
+			bottom: 0;
+			padding: 1em;
+			box-sizing: border-box;
+			
+			h2 {
+				font-size: 2em;
+				margin-bottom: 0.3em;
+				font-weight: 600;
+			}
+
+			span {
+
+			}
+
+			button {
+				position: absolute;
+				top: 0;	
+				right: 0;
+			}
+		}
+	}
+}
+
+#product-full {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}

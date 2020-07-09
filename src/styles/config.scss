@@ -22,6 +22,11 @@ $tabletSize : 1300px;
 	border: 1px solid red;
 }
 
+@mixin Fill {
+	width: 100%;
+	height: 100%;
+}
+
 @mixin BackgroundImageCovered ($url) {
 	background-image: url($url);
 	background-repeat: no-repeat;
