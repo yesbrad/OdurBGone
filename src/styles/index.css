@@ -29,6 +29,10 @@ button:focus {
 	outline: none;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
