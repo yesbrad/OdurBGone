@@ -1,0 +1,25 @@
+@import "../../styles/config.scss";
+
+.header-container {
+	width: 100%;
+	height: 10rem;
+	background: $primaryColor;
+	@include FlexCenter;
+	justify-content: space-between;
+	padding: 5rem;
+	box-sizing: border-box;
+
+	h1 {
+		color: $white;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
+	nav {
+		button {
+			color: $white;
+			width: 8rem;
+			height: 4rem;
+		}
+	}
+}

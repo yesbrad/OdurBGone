@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './styles/baseStyles.css';
+import Header from './components/header';
 
-function App() {
+const App = () => {
   return (
     <div>
-      Odour B Gone
+      <Header />
     </div>
   );
 }
