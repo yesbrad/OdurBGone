@@ -1,0 +1,21 @@
+@import "../../styles/config.scss";
+
+.headerImage-container {
+	padding: 1rem;
+	padding-bottom: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 30rem;
+	
+	.headerImage-background {
+		@include Fill;
+		@include BackgroundImageCovered("../../images/Header.jpg");
+		@include FlexCenter;
+
+		h2 {
+			color: $white;
+			font-size: 3rem;
+			font-weight: 700;
+		}
+	}
+}
