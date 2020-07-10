@@ -4,9 +4,12 @@
 	height: 33.33vw;
 	padding: 0.5rem;
 	box-sizing: border-box;
+	// background-image: url('../../images/products/2.JPG');
 	
 	.product-card-content {
-		background-color: $lightGray;
+		// background-color: $lightGray;
+		background-size: cover;
+		background-position: center;
 		@include Fill;
 		@include FlexCenter;
 		position: relative;

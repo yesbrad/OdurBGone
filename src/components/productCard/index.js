@@ -11,8 +11,8 @@ const ProductCard = ({ product }) => {
 
 	return (
 		<div className="product-card-container" id={product.width === 3 ? 'product-full' : ''} >
-			<div className="product-card-content">
-				<img src={product.image} alt="Product"/>
+			<div className="product-card-content"  style={{ backgroundImage: `url(${product.image})`}}>
+				{/* <img src={product.image} alt="Product"/> */}
 				<animated.div style={trans} className="product-info">
 					<h2>{product.name}</h2>
 					<span>{product.description}</span>
