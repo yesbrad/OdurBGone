@@ -6,6 +6,7 @@ import HeaderImage from './components/headerImage';
 import TitleHeading from './components/titleHeading';
 import About from './components/about';
 import Stockists from './components/stockists';
+import FAQ from './components/faq';
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
 		  <Stockists />
 		  <TitleHeading title="About" />
 		  <About />
-		<TitleHeading title="FAQ" />
+		  <TitleHeading title="FAQ" />
+		  <FAQ />
 		<TitleHeading title="Contact"/>
     </div>
   );

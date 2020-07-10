@@ -1,0 +1,12 @@
+@import "../../styles/config.scss";
+
+.faq-contatiner {
+	padding: 1rem;
+	box-sizing: border-box;
+	@include FlexCenter;
+	background-color: $black;
+
+	.faq-dropdown-wrapper {
+		width: 50%;
+	}
+}
