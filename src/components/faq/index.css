@@ -17,4 +17,10 @@
 .faq-contatiner .faq-dropdown-wrapper {
   width: 50%;
 }
+
+@media screen and (max-width: 1000px) {
+  .faq-contatiner .faq-dropdown-wrapper {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=index.css.map */

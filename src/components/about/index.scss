@@ -12,10 +12,18 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		height: 100%;
 
+		@media screen and (max-width: $mobileSize) {
+			grid-template-columns: 1fr;
+		}
+
 		.about-content-image {
 			grid-column-start: 1;
 			grid-column-end: 3;
 			@include BackgroundImageCovered("../../images/Header.jpg");
+
+			@media screen and (max-width: $mobileSize) {
+				display: hidden;
+			}
 		}
 
 		.about-content-info {

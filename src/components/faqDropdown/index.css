@@ -19,6 +19,12 @@
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 1000px) {
+  .faq-dropdown-contatiner .faq-dropdown-question h2 {
+    font-size: 1.3em;
+  }
+}
+
 .faq-dropdown-contatiner .faq-dropdown-question button {
   color: white;
   width: 3rem;

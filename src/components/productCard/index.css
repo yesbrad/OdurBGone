@@ -5,6 +5,18 @@
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 1300px) {
+  .product-card-container {
+    height: 50vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .product-card-container {
+    height: 100vw;
+  }
+}
+
 .product-card-container .product-card-content {
   background-size: cover;
   background-position: center;

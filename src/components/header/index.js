@@ -24,7 +24,7 @@ const Header = () => {
 	});
 
 	const springFont = useSpring({
-		fontSize: scrollPosition > smallMenuOffset ? '2rem' : '3rem'
+		fontSize: scrollPosition > smallMenuOffset ? '2rem' : '2.5rem'
 	});
 
 	return (

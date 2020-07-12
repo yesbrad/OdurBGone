@@ -8,5 +8,9 @@
 
 	.faq-dropdown-wrapper {
 		width: 50%;
+
+		@media screen and (max-width: $mobileSize) {
+			width: 90%;
+		}
 	}
 }

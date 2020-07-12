@@ -36,4 +36,10 @@
   color: white;
   width: 8rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .header-container nav button {
+    display: none;
+  }
+}
 /*# sourceMappingURL=index.css.map */

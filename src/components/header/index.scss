@@ -26,7 +26,11 @@
 		button {
 			color: $white;
 			width: 8rem;
-			// height: 4rem;
+
+			@media screen and (max-width: $mobileSize) {
+				display: none;
+			}
 		}
+
 	}
 }
