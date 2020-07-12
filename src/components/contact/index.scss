@@ -1,0 +1,48 @@
+@import "../../styles/config.scss";
+
+.contact-contatiner {
+	// @include DBorder;
+	padding: 1rem;
+	box-sizing: border-box;
+	height: 30rem;
+
+	.contact-content {
+		background-color: $black;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		height: 100%;
+
+		@media screen and (max-width: $mobileSize) {
+			grid-template-columns: 1fr;
+		}
+
+		.contact-content-image {
+			grid-column-start: 2;
+			grid-column-end: 4;
+			@include BackgroundImageCovered("../../images/Header2.JPG");
+
+			@media screen and (max-width: $mobileSize) {
+				display: hidden;
+			}
+		}
+
+		.contact-content-info {
+			padding: 4rem;
+			box-sizing: border-box;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			h3 {
+				font-size: 2rem;
+				font-weight: 500;
+				margin-bottom: 1rem;
+			}
+			
+			h4 {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

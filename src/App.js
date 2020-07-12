@@ -7,6 +7,7 @@ import TitleHeading from './components/titleHeading';
 import About from './components/about';
 import Stockists from './components/stockists';
 import FAQ from './components/faq';
+import Contact from './components/contact';
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
 		<About />
 		<TitleHeading title="FAQ" />
 		<FAQ />
-		<TitleHeading title="Contact"/>
+		<TitleHeading title="Contact" />
+		<Contact />
     </div>
   );
 }

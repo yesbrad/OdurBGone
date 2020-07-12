@@ -1,0 +1,66 @@
+.contact-contatiner {
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 30rem;
+}
+
+.contact-contatiner .contact-content {
+  background-color: #1d1d1d;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-contatiner .contact-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.contact-contatiner .contact-content .contact-content-image {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  background-image: url("../../images/Header2.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-contatiner .contact-content .contact-content-image {
+    display: hidden;
+  }
+}
+
+.contact-contatiner .contact-content .contact-content-info {
+  padding: 4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-contatiner .contact-content .contact-content-info h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.contact-contatiner .contact-content .contact-content-info h4 {
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=index.css.map */
