@@ -15,12 +15,12 @@ const App = () => {
 		<HeaderImage />
 		<TitleHeading title="Product Range"/>
 		<Products />
-		  <TitleHeading title="Stockists" />
-		  <Stockists />
-		  <TitleHeading title="About" />
-		  <About />
-		  <TitleHeading title="FAQ" />
-		  <FAQ />
+		<TitleHeading title="Stockists" />
+		<Stockists />
+		<TitleHeading title="About" />
+		<About />
+		<TitleHeading title="FAQ" />
+		<FAQ />
 		<TitleHeading title="Contact"/>
     </div>
   );

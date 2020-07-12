@@ -8,4 +8,18 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+@media screen and (max-width: 1300px) {
+  .products-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .products-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
 /*# sourceMappingURL=index.css.map */

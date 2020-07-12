@@ -7,8 +7,8 @@
   position: fixed;
   z-index: 50;
   width: 100%;
-  background: -webkit-gradient(linear, right top, left top, from(#b700ff), to(#ff00b3));
-  background: linear-gradient(to left, #b700ff, #ff00b3);
+  background: -webkit-gradient(linear, right top, left top, from(#ff9bf2), to(#e476ff));
+  background: linear-gradient(to left, #ff9bf2, #e476ff);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

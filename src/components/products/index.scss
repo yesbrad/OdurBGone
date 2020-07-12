@@ -6,4 +6,12 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 0.5rem;
 	box-sizing: border-box;
+
+	@media screen and (max-width: $tabletSize) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media screen and (max-width: $mobileSize) {
+		grid-template-columns: 1fr;
+	}
 }

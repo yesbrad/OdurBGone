@@ -50,6 +50,8 @@
 }
 
 #product-full {
-	grid-column-start: 1;
-	grid-column-end: 4;
+	@media screen and (min-width: $tabletSize) {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
 }
