@@ -37,12 +37,12 @@ const ProductCard = ({ product }) => {
 						<animated.span style={shortDescriptionProps}>{product.shortDescription}</animated.span>
 						<animated.span style={descriptionProps}>{product.description}</animated.span>
 					</div>
-					<div className="product-specs">
+					<animated.div style={descriptionProps} className="product-specs">
 						<h2>Specifictations</h2>
 						{product.specifications.map((spec, index) => {
 							return <span>{`${index + 1}. ${spec}`}</span>
 						})}
-					</div>
+					</animated.div>
 					<animated.button style={chevProps} onClick={() => setIsOpen(!isOpen)}><FaChevronUp size="2rem" /></animated.button>
 				</animated.div>
 			</div>
