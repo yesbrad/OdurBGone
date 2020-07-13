@@ -8,6 +8,7 @@ import About from './components/about';
 import Stockists from './components/stockists';
 import FAQ from './components/faq';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 		<FAQ />
 		<TitleHeading title="Contact" />
 		<Contact />
+		<Footer />
     </div>
   );
 }
