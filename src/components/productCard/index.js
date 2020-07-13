@@ -1,22 +1,49 @@
 import React, { useState } from 'react';
 import './index.css';
 import { useSpring, animated } from 'react-spring';
+import { FaChevronUp } from 'react-icons/fa';
 
 const ProductCard = ({ product }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const trans = useSpring({
-		top: isOpen ? '20%' : '80%',
+		top: isOpen ? '0%' : '83%',
+		opacity: isOpen ? 0.9 : 0.7,
+		padding: isOpen ? '2rem' : '1.5rem',
+	})
+
+	const headerProps = useSpring({
+		marginBottom: isOpen ? '0.6em' : '0.1em',
+	})
+
+	const chevProps = useSpring({
+		transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)'
+	});
+
+	const shortDescriptionProps = useSpring({
+		opacity: isOpen ? 0 : 1,
+	})
+
+	const descriptionProps = useSpring({
+		opacity: isOpen ? 1 : 0,
 	})
 
 	return (
 		<div className="product-card-container" id={product.width === 3 ? 'product-full' : ''} >
 			<div className="product-card-content"  style={{ backgroundImage: `url(${product.image})`}}>
-				{/* <img src={product.image} alt="Product"/> */}
 				<animated.div style={trans} className="product-info">
-					<h2>{product.name}</h2>
-					<span>{product.description}</span>
-					<button onClick={() => setIsOpen(!isOpen)}>Open</button>
+					<animated.h2 style={headerProps}>{product.name}</animated.h2>
+					<div className="product-desctiption-container">
+						<animated.span style={shortDescriptionProps}>{product.shortDescription}</animated.span>
+						<animated.span style={descriptionProps}>{product.description}</animated.span>
+					</div>
+					<div className="product-specs">
+						<h2>Specifictations</h2>
+						{product.specifications.map((spec, index) => {
+							return <span>{`${index + 1}. ${spec}`}</span>
+						})}
+					</div>
+					<animated.button style={chevProps} onClick={() => setIsOpen(!isOpen)}><FaChevronUp size="2rem" /></animated.button>
 				</animated.div>
 			</div>
 		</div>
