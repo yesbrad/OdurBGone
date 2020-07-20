@@ -16,6 +16,19 @@
 	padding: 0 5rem;
 	box-sizing: border-box;
 
+	@media screen and (max-width: $mobileSize) {
+		padding: 0 1rem;
+		justify-content: center;
+	}
+
+	.header-logo {
+		width: 20rem;
+		height: 100%;
+		overflow: visible;
+		@include BackgroundImageCovered('../../images/heading.png');
+		// @include DBorder;
+	}
+
 	h1 {
 		color: $white;
 		font-size: 3rem;

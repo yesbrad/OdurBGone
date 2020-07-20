@@ -26,6 +26,25 @@
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 1000px) {
+  .header-container {
+    padding: 0 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.header-container .header-logo {
+  width: 20rem;
+  height: 100%;
+  overflow: visible;
+  background-image: url("../../images/heading.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .header-container h1 {
   color: white;
   font-size: 3rem;

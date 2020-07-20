@@ -9,7 +9,7 @@
 	
 	.headerImage-background {
 		@include Fill;
-		@include BackgroundImageCovered("../../images/Header2.JPG");
+		@include BackgroundImageCovered("../../images/products_second/newHeader.JPG");
 		@include FlexCenter;
 
 		h2 {

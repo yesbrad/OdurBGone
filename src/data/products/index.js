@@ -13,7 +13,7 @@ const data = [
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],
-		image: require('../../images/products/2.JPG'),
+		image: require('../../images/products_second/2.JPG'),
 		width: 1
 	},
 	{
@@ -30,7 +30,7 @@ const data = [
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],
-		image: require('../../images/products/3.JPG'),
+		image: require('../../images/products_second/1.JPG'),
 		width: 1
 	},
 	{
@@ -46,7 +46,7 @@ const data = [
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products/4.JPG'),
+		],		image: require('../../images/products_second/3.JPG'),
 		width: 1
 	},
 	{
@@ -62,8 +62,40 @@ const data = [
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products/2.JPG'),
-		width: 3,
+		],		image: require('../../images/products_second/4.JPG'),
+		// width: 3,
+	},
+	{
+		name: 'Tablets 6',
+		shortDescription: 'Tabet Short Description',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim sapien est, vitae egestas eros tempor ut. Curabitur erat sem, consequat eu turpis in, viverra tempor odio. Nunc quis orci suscipit, vulputate nibh in, consectetur felis. Proin commodo ultrices velit, volutpat cursus odio dignissim id. Etiam egestas augue eget quam.',
+		specifications: [
+			'A great alternative to your current toilet chemical.',
+			'Small disc that will last up to 7 days in bottom tank',
+			'Easy to use',
+			'Economical',
+			'No harmful chemicals',
+			'Disinfects, deodorizes as it cleans',
+			'Protects rubber seals',
+			'Safe in sewer and septic tanks systems',
+		],		image: require('../../images/products_second/5.JPG'),
+		// width: 3,
+	},
+	{
+		name: 'Tablets 6',
+		shortDescription: 'Tabet Short Description',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim sapien est, vitae egestas eros tempor ut. Curabitur erat sem, consequat eu turpis in, viverra tempor odio. Nunc quis orci suscipit, vulputate nibh in, consectetur felis. Proin commodo ultrices velit, volutpat cursus odio dignissim id. Etiam egestas augue eget quam.',
+		specifications: [
+			'A great alternative to your current toilet chemical.',
+			'Small disc that will last up to 7 days in bottom tank',
+			'Easy to use',
+			'Economical',
+			'No harmful chemicals',
+			'Disinfects, deodorizes as it cleans',
+			'Protects rubber seals',
+			'Safe in sewer and septic tanks systems',
+		],		image: require('../../images/products_second/6.JPG'),
+		// width: 3,
 	},
 ]
 

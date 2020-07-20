@@ -24,13 +24,14 @@ const Header = () => {
 	});
 
 	const springFont = useSpring({
-		fontSize: scrollPosition > smallMenuOffset ? '2rem' : '2.5rem'
+		transform: scrollPosition > smallMenuOffset ? 'scale(0.7)' : 'scale(1)'
 	});
 
 	return (
 		<div>
 			<animated.div style={spring} className="header-container">
-				<animated.h1 style={springFont}>Odour B Gone</animated.h1>
+				{/* <animated.h1 style={springFont}>Odour B Gone</animated.h1> */}
+				<animated.div style={springFont} className="header-logo"></animated.div>
 				<nav>
 					<button>HOME</button>
 					<button>PRODUCTS</button>
