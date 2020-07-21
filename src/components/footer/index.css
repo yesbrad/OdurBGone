@@ -35,4 +35,17 @@
   color: white;
   margin-top: 1rem;
 }
+
+.footer-container .footer-padding h2 {
+  color: white;
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  -webkit-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
+}
+
+.footer-container .footer-padding h2:hover {
+  cursor: pointer;
+  color: #585858;
+}
 /*# sourceMappingURL=index.css.map */
