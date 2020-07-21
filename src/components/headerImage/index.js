@@ -6,7 +6,8 @@ const HeaderImage = () => {
 	return (
 		<div className="headerImage-container">
 			<div className="headerImage-background">
-				{/* <h2>RV TOILET TABLETS</h2> */}
+				<h2>Australias Leading Provider in</h2>
+				<h3>RV TOILET TABLETS</h3>
 			</div>
 		</div>
 	)

@@ -23,11 +23,31 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .headerImage-container .headerImage-background h2 {
   color: white;
   font-size: 3rem;
+  font-weight: 600;
+  background-color: #e476ff;
+  padding: 0.5rem;
+}
+
+.headerImage-container .headerImage-background h3 {
+  color: white;
+  font-size: 5rem;
   font-weight: 700;
+  background-color: #e476ff;
+  padding: 1rem;
 }
 /*# sourceMappingURL=index.css.map */
