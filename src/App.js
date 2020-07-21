@@ -9,6 +9,7 @@ import Stockists from './components/stockists';
 import FAQ from './components/faq';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Features from './components/features';
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
 		<Header />
 		<HeaderImage />
 		<TitleHeading title="Product Range"/>
-		<Products />
+		  <Products />
+		  <TitleHeading title="Features"/>
+		  <Features />
 		<TitleHeading title="Stockists" />
 		<Stockists />
 		<TitleHeading title="About" />

@@ -1,0 +1,34 @@
+@import "../../styles/config.scss";
+
+.features-contatiner {
+	padding: 1rem;
+	box-sizing: border-box;
+	// height: 30rem;
+
+	.features-content {
+		background-color: $black;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		height: 100%;
+		padding: 4rem;
+		box-sizing: border-box;
+
+		@media screen and (max-width: $tabletSize) {
+			grid-template-columns: 1fr;
+		}
+
+		.features-column {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			color: white;
+
+			span {
+				font-size: 1.5rem;
+				font-weight: 200;
+				margin: 0.3rem 0;
+			}
+		}
+	}
+}

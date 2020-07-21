@@ -7,6 +7,7 @@ const Footer = () => {
 			<div className="footer-padding">
 				<button>HOME</button>
 				<button>PRODUCTS</button>
+				<button>FEATURES</button>
 				<button>STOCKISTS</button>
 				<button>ABOUT</button>
 				<button>CONTACT</button>
