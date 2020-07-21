@@ -9,15 +9,16 @@
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .products-container {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .products-container {
+    border: 1px solid red;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }

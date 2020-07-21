@@ -1,17 +1,20 @@
 @import "../../styles/config.scss";
 
 .product-card-container {
-	// height: 33.33vw;
 	height: 50vw;
 	padding: 0.5rem;
 	box-sizing: border-box;
 	
 	@media screen and (max-width: $tabletSize) {
-		height: 50vw;
+		height: 100vw;
 	}
 
 	@media screen and (max-width: $mobileSize) {
-		height: 100vw;
+		height: 200vw;
+	}
+
+	@media screen and (max-width: $smallMobileSize) {
+		height: 240vw;
 	}
 
 	.product-card-content {
@@ -41,22 +44,36 @@
 				font-size: 2em;
 				margin-bottom: 0.6em;
 				font-weight: 700;
-
-				
-				@media screen and (max-width: $mobileSize) {
-					font-size: 1.5rem;
-				}
 			}
 
 			.product-desctiption-container {
-				height: 10rem;
+				
+				.product-description-paragraph {
+					display: flex;
+					flex-direction: column;
+					span{
+						margin-bottom: 1em;
+
+						@media screen and (max-width: $tabletSize) {
+							margin-bottom: 0.5em;
+						}
+					}
+				}
 
 				span {
-					position: absolute;
-					line-height: 1.4rem;
-					font-weight: 100;
-					width: 90%;
+					font-size: 1vw;
+					line-height: 1.4em;
+					font-weight: 200;
+					
+					@media screen and (max-width: $tabletSize) {
+						font-size: 1.5vw;
+					}
+
+					@media screen and (max-width: $mobileSize) {
+						font-size: 3vw;
+					}
 				}
+
 			}
 
 			.product-specs {
@@ -88,6 +105,14 @@
 				top: 1rem;	
 				right: 1rem;
 				color: $white;
+			}
+
+			.product-moreinfo {
+				position: absolute;
+				top: 3rem;	
+				right: 1rem;
+				color: $white;
+				font-size: 0.7rem;
 			}
 		}
 	}

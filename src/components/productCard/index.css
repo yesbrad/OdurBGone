@@ -5,15 +5,21 @@
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .product-card-container {
-    height: 50vw;
+    height: 100vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .product-card-container {
-    height: 100vw;
+    height: 200vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product-card-container {
+    height: 240vw;
   }
 }
 
@@ -58,21 +64,42 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 1000px) {
-  .product-card-container .product-card-content .product-info h2 {
-    font-size: 1.5rem;
+.product-card-container .product-card-content .product-info .product-desctiption-container .product-description-paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-card-container .product-card-content .product-info .product-desctiption-container .product-description-paragraph span {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .product-card-container .product-card-content .product-info .product-desctiption-container .product-description-paragraph span {
+    margin-bottom: 0.5em;
   }
 }
 
-.product-card-container .product-card-content .product-info .product-desctiption-container {
-  height: 10rem;
+.product-card-container .product-card-content .product-info .product-desctiption-container span {
+  font-size: 1vw;
+  line-height: 1.4em;
+  font-weight: 200;
 }
 
-.product-card-container .product-card-content .product-info .product-desctiption-container span {
-  position: absolute;
-  line-height: 1.4rem;
-  font-weight: 100;
-  width: 90%;
+@media screen and (max-width: 1200px) {
+  .product-card-container .product-card-content .product-info .product-desctiption-container span {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .product-card-container .product-card-content .product-info .product-desctiption-container span {
+    font-size: 3vw;
+  }
 }
 
 .product-card-container .product-card-content .product-info .product-specs {
@@ -85,7 +112,7 @@
           flex-direction: column;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .product-card-container .product-card-content .product-info .product-specs {
     display: none;
   }
@@ -97,13 +124,13 @@
   font-weight: 100;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .product-card-container .product-card-content .product-info .product-specs span {
     margin: 0 0 0.3rem 0;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .product-card-container .product-card-content .product-info .product-specs span {
     font-size: 1.2rem;
     margin: 0 0 0.3rem 0;
@@ -115,5 +142,13 @@
   top: 1rem;
   right: 1rem;
   color: white;
+}
+
+.product-card-container .product-card-content .product-info .product-moreinfo {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  color: white;
+  font-size: 0.7rem;
 }
 /*# sourceMappingURL=index.css.map */
