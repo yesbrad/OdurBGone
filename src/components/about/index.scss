@@ -30,11 +30,19 @@
 			padding: 4rem;
 			box-sizing: border-box;
 			color: white;
-
+			display: flex;
+			flex-direction: column;
+			font-weight: 300;
+			
 			h3 {
 				font-size: 3rem;
 				font-weight: 500;
 				margin-bottom: 1rem;
+			}
+			
+			span {
+				margin-bottom: 0.5rem;
+				line-height: 1.3rem;
 			}
 		}
 	}

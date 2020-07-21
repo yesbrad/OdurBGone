@@ -42,11 +42,24 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 300;
 }
 
 .about-contatiner .about-content .about-content-info h3 {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 1rem;
+}
+
+.about-contatiner .about-content .about-content-info span {
+  margin-bottom: 0.5rem;
+  line-height: 1.3rem;
 }
 /*# sourceMappingURL=index.css.map */
