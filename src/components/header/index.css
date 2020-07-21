@@ -26,7 +26,7 @@
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .header-container {
     padding: 0 1rem;
     -webkit-box-pack: center;
@@ -51,14 +51,26 @@
   font-weight: 700;
 }
 
-.header-container nav button {
+.header-container nav .nav-button {
   color: white;
   width: 8rem;
+  margin-left: 2rem;
+  -webkit-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
 }
 
-@media screen and (max-width: 1000px) {
-  .header-container nav button {
+@media screen and (max-width: 700px) {
+  .header-container nav .nav-button {
     display: none;
   }
+}
+
+.header-container nav .nav-button:hover {
+  cursor: pointer;
+  color: #1d1d1d;
+}
+
+.nav-button-active {
+  color: red;
 }
 /*# sourceMappingURL=index.css.map */

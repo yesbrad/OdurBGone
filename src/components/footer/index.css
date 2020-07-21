@@ -26,9 +26,16 @@
           flex-direction: column;
 }
 
-.footer-container .footer-padding button {
+.footer-container .footer-padding .nav-button {
   color: white;
-  height: 2rem;
+  height: 1.4rem;
+  -webkit-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
+}
+
+.footer-container .footer-padding .nav-button:hover {
+  color: #1d1d1d;
+  cursor: pointer;
 }
 
 .footer-container .footer-padding h3 {

@@ -12,9 +12,15 @@
 		@include FlexCenter;
 		flex-direction: column;
 
-		button {
+		.nav-button {
 			color: $white;
-			height: 2rem;
+			height: 1.4rem;
+			transition: color 100ms ease-in-out;
+
+			&:hover {
+				color: $black;
+				cursor: pointer;
+			}
 		}
 
 		h3 {

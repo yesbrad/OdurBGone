@@ -9,7 +9,6 @@
 	position: fixed;
 	z-index: 50;
 	width: 100%;
-	// height: 10rem;
 	background: linear-gradient(to left,$primaryColor, $secondaryColor);
 	@include FlexCenter;
 	justify-content: space-between;
@@ -26,7 +25,6 @@
 		height: 100%;
 		overflow: visible;
 		@include BackgroundImageCovered('../../images/heading.png');
-		// @include DBorder;
 	}
 
 	h1 {
@@ -36,14 +34,24 @@
 	}
 
 	nav {
-		button {
+		.nav-button {
 			color: $white;
 			width: 8rem;
+			margin-left: 2rem;
+			transition: color 100ms ease-in-out;
 
 			@media screen and (max-width: $mobileSize) {
 				display: none;
 			}
-		}
 
+			&:hover {
+				cursor: pointer;
+				color: $black;
+			}
+		}
 	}
+}
+
+.nav-button-active {
+	color: red;
 }

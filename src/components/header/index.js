@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import { useSpring, animated } from 'react-spring';
+import { Link } from 'react-scroll'
 
 const smallMenuOffset = 50;
 
@@ -33,12 +34,13 @@ const Header = () => {
 				{/* <animated.h1 style={springFont}>Odour B Gone</animated.h1> */}
 				<animated.div style={springFont} className="header-logo"></animated.div>
 				<nav>
-					<button>HOME</button>
-					<button>PRODUCTS</button>
-					<button>FEATURES</button>
-					<button>STOCKISTS</button>
-					<button>ABOUT</button>
-					<button>CONTACT</button>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="HOME" smooth>HOME</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="PRODUCTS" smooth>PRODUCTS</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="FEATURES" smooth>FEATURES</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="STOCKISTS" smooth>STOCKISTS</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="FAQ" smooth>FAQ</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="ABOUT" smooth>ABOUT</Link>
+					<Link className='nav-button' activeClass="nav-button-active" spy to="CONTACT" smooth>CONTACT</Link>
 				</nav>
 			</animated.div>
 			<div className="headerImage-dummy-container">
