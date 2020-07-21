@@ -17,6 +17,7 @@
 
 .faq-dropdown-contatiner .faq-dropdown-question h2 {
   font-size: 1.5em;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,5 +43,20 @@
 
 .faq-dropdown-contatiner .faq-dropdown-answer {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.faq-dropdown-contatiner .faq-dropdown-answer span {
+  margin-bottom: 0.5rem;
+  font-weight: 200;
 }
 /*# sourceMappingURL=index.css.map */

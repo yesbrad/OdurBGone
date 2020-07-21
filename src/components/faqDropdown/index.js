@@ -7,7 +7,7 @@ const FAQDropDown = ({ answer, question }) => {
 	const [isOpen, SetIsOpen] = useState()
 
 	const spring = useSpring({
-		height: isOpen ? '5rem' : '0rem',
+		height: isOpen ? '9rem' : '0rem',
 		opacity: isOpen ? 1 : 0
 	})
 
@@ -24,7 +24,7 @@ const FAQDropDown = ({ answer, question }) => {
 				</animated.button>
 			</div>
 			<animated.div style={spring} className="faq-dropdown-answer">
-				<span>A. {answer}</span>
+				{answer.map((an) => <span>{an}</span>)}
 			</animated.div>
 		</div>
 	)

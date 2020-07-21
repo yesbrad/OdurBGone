@@ -15,7 +15,7 @@
 		
 		h2 {
 			font-size: 1.5em;
-
+			font-weight: 600;
 			@media screen and (max-width: $mobileSize) {
 				font-size: 1.3em;
 			}
@@ -31,5 +31,13 @@
 
 	.faq-dropdown-answer {
 		color: $white;
+		display: flex;
+		flex-direction: column;
+		padding-top: 1rem;
+		box-sizing: border-box;
+		span {
+			margin-bottom: 0.5rem;
+			font-weight: 200;
+		}
 	}
 }
