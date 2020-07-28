@@ -1,5 +1,5 @@
 .product-card-container {
-  height: 50vw;
+  height: 33.33vw;
   padding: 0.5rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -59,7 +59,7 @@
 }
 
 .product-card-container .product-card-content .product-info h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   margin-bottom: 0.6em;
   font-weight: 700;
 }

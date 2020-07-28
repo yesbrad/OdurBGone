@@ -22,7 +22,7 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .stockists-contatiner .stockists-state-container button {
     border: white 0.2rem solid;
     font-size: 1rem;
@@ -40,7 +40,7 @@
           box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .stockists-contatiner .stockists-border-selector {
     border: white 0.2rem solid;
   }
@@ -54,14 +54,14 @@
   margin-top: 5rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .stockists-contatiner .stockists-info-container {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .stockists-contatiner .stockists-info-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;

@@ -14,7 +14,7 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .about-contatiner .about-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -31,7 +31,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .about-contatiner .about-content .about-content-image {
     display: hidden;
   }
