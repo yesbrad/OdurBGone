@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
 import './index.css';
 import { useSpring, animated } from 'react-spring';
-import StockistData from '../../data/stockists';
+// import StockistData from '../../data/stockists';
+
+import {
+	vicData,
+	nswData,
+	qldData,
+	saData,
+	waData,
+	actData,
+	ntData,
+} from '../../data/stockists';
 
 const Stockists = () => {
 	const [currentState, SetCurrentState] = useState(0);
@@ -13,22 +23,21 @@ const Stockists = () => {
 	const getNamedStateFromIndex = () => {
 		switch (currentState) {
 			case 0:
-				return 'VIC';
+				return vicData;
 			case 1:
-				return 'NSW';
+				return nswData;
 			case 2:
-				return 'QLD';
+				return qldData;
 			case 3:
-				return 'ACT';
+				return actData;
 			case 4:
-				return 'WA';
+				return waData;
 			case 5:
-				return 'NT';
+				return ntData;
 			case 6:
-				return 'SA';
+				return saData;
 			case 7:
-				return 'TAS';
-				
+				return [];
 		}
 	} 
 
@@ -46,19 +55,14 @@ const Stockists = () => {
 				<button onClick={() => SetCurrentState(7)} className="stockists-state">TAS</button>				
 			</div>
 			<div className="stockists-info-container">
-				{StockistData.map((data) => {
-					if (getNamedStateFromIndex() === data.state) {	
-						return (
-							<div className='stockists-info-card'>
-								<span>{data.name}</span>
-								<span>{data.address}</span>
-								<span>{data.website}</span>
-								<span>{data.phone}</span>
-							</ div>	
-						);
-					} else {
-						return null;
-					}
+				{getNamedStateFromIndex().map((data) => {
+					return (
+						<div className='stockists-info-card'>
+							<span>{data.name}</span>
+							<span>{data.address}</span>
+							<span>{data.phone}</span>
+						</ div>	
+					);
 				})}
 			</div>
 		</div>

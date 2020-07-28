@@ -1,111 +1,13 @@
-const data = [
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'VIC'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'VIC'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'VIC'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NSW'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NSW'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NSW'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'SA'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'SA'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NT'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NT'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'NT'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'QLD'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'QLD'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'QLD'
-	},
-	{
-		name: 'Name',
-		address: 'Adress',
-		phone: '123344567',
-		website: 'janedoe.com',
-		state: 'QLD'
-	},
+// import VicData from './vic.js';
 
+// const data = [...VicData];
 
-]
+// export default data;
 
-export default data;
+export * from './vic';
+export * from './nsw';
+export * from './qld';
+export * from './sa';
+export * from './wa';
+export * from './nt';
+export * from './act';
