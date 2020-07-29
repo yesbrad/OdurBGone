@@ -2,14 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-scroll'
+import { IoMdMenu } from 'react-icons/io';
 
 const smallMenuOffset = 50;
 
 const Header = () => {
 	const [scrollPosition, setSrollPosition] = useState(0);
+	const [innerWidth, setInnerWidth] = useState(0);
+
 	const handleScroll = () => {
 		const position = window.pageYOffset;
 		setSrollPosition(position);
+		setInnerWidth(window.innerWidth);
 	};
 	
 	useEffect(() => {
@@ -31,7 +35,6 @@ const Header = () => {
 	return (
 		<div>
 			<animated.div style={spring} className="header-container">
-				{/* <animated.h1 style={springFont}>Odour B Gone</animated.h1> */}
 				<animated.div style={springFont} className="header-logo"></animated.div>
 				<nav>
 					<Link className='nav-button' activeClass="nav-button-active" spy to="HOME" smooth>HOME</Link>
@@ -41,6 +44,9 @@ const Header = () => {
 					<Link className='nav-button' activeClass="nav-button-active" spy to="FAQ" smooth>FAQ</Link>
 					<Link className='nav-button' activeClass="nav-button-active" spy to="ABOUT" smooth>ABOUT</Link>
 					<Link className='nav-button' activeClass="nav-button-active" spy to="CONTACT" smooth>CONTACT</Link>
+					<button className="nav-hamburger-button">
+						<IoMdMenu className="nav-hamburger-button-icon"/>
+					</button>
 				</nav>
 			</animated.div>
 			<div className="headerImage-dummy-container">
