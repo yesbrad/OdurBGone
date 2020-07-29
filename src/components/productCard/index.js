@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const trans = useSpring({
-		top: isOpen ? '0%' : '83%',
+		top: isOpen ? '0%' : '80%',
 		opacity: isOpen ? 0.9 : 0.7,
 		padding: isOpen ? '2rem' : '1.5rem',
 	})

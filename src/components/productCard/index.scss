@@ -10,11 +10,7 @@
 	}
 
 	@media screen and (max-width: $mobileSize) {
-		height: 200vw;
-	}
-
-	@media screen and (max-width: $smallMobileSize) {
-		height: 240vw;
+		height: 150vw;
 	}
 
 	.product-card-content {
@@ -44,6 +40,11 @@
 				font-size: 1.7em;
 				margin-bottom: 0.6em;
 				font-weight: 700;
+				width: 80%;
+
+				@media screen and (max-width: $mobileSize) {
+					font-size: 1.5em;
+				}
 			}
 
 			.product-desctiption-container {

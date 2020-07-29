@@ -20,6 +20,7 @@
   .features-contatiner .features-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    padding: 2rem;
   }
 }
 
@@ -44,5 +45,12 @@
   font-size: 1.5rem;
   font-weight: 200;
   margin: 0.3rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .features-contatiner .features-content .features-column span {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */

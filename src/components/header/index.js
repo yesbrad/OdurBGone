@@ -31,13 +31,10 @@ const Header = () => {
 		transform: scrollPosition > smallMenuOffset ? 'scale(0.7)' : 'scale(1)'
 	});
 
+	// TODO: Transform does not update unless scroll is triggerd
 	const springMenu = useSpring({
-		left: isMenuOpen ? '50%' : '100%',
 		opacity: isMenuOpen ? 1 : 0,
-	});
-
-	const springMenuScale = useSpring({
-		transform: isMenuOpen ? 'scale(1)' : 'scale(0)'
+		transform: isMenuOpen ? 'translateX(0)' : `translateX(${window.innerWidth / 2}px)`
 	});
 
 	return (
@@ -56,7 +53,7 @@ const Header = () => {
 						<IoMdMenu className="nav-hamburger-button-icon"/>
 					</button>
 					<animated.div style={springMenu} className="nav-hamburger-menu">
-						<animated.button style={springMenuScale} onClick={() => setIsMenuOpen(false)}>
+						<animated.button onClick={() => setIsMenuOpen(false)}>
 							<IoMdClose className="nav-hamburger-close-icon" />
 						</animated.button>
 						<Link className='nav-button-hamburger' spy to="HOME" smooth>HOME</Link>

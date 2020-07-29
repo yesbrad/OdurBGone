@@ -13,13 +13,7 @@
 
 @media screen and (max-width: 700px) {
   .product-card-container {
-    height: 200vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .product-card-container {
-    height: 240vw;
+    height: 150vw;
   }
 }
 
@@ -62,6 +56,13 @@
   font-size: 1.7em;
   margin-bottom: 0.6em;
   font-weight: 700;
+  width: 80%;
+}
+
+@media screen and (max-width: 700px) {
+  .product-card-container .product-card-content .product-info h2 {
+    font-size: 1.5em;
+  }
 }
 
 .product-card-container .product-card-content .product-info .product-desctiption-container .product-description-paragraph {
