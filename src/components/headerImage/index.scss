@@ -9,7 +9,7 @@
 	
 	.headerImage-background {
 		@include Fill;
-		@include BackgroundImageCovered("../../images/products_second/newHeader.JPG");
+		@include BackgroundImageCovered("../../images/productsCompressed/newHeader.JPG");
 		@include FlexCenter;
 		flex-direction: column;
 		align-items: flex-end;

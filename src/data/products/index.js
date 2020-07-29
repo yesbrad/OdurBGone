@@ -18,7 +18,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],
-		image: require('../../images/products_second/2.JPG'),
+		image: require('../../images/productsCompressed/2.JPG'),
 		width: 1
 	},
 	{
@@ -40,7 +40,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],
-		image: require('../../images/products_second/1.JPG'),
+		image: require('../../images/productsCompressed/1.JPG'),
 		width: 1
 	},
 	{
@@ -59,7 +59,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products_second/3.JPG'),
+		],		image: require('../../images/productsCompressed/3.JPG'),
 		width: 1
 	},
 	{
@@ -78,7 +78,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products_second/4.JPG'),
+		],		image: require('../../images/productsCompressed/4.JPG'),
 		// width: 3,
 	},
 	{
@@ -96,7 +96,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products_second/5.JPG'),
+		],		image: require('../../images/productsCompressed/5.JPG'),
 		// width: 3,
 	},
 	{
@@ -113,7 +113,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Disinfects, deodorizes as it cleans',
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
-		],		image: require('../../images/products_second/6.JPG'),
+		],		image: require('../../images/productsCompressed/6.JPG'),
 		// width: 3,
 	},
 ]

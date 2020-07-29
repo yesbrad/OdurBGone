@@ -19,7 +19,7 @@
 		.contact-content-image {
 			grid-column-start: 2;
 			grid-column-end: 4;
-			@include BackgroundImageCovered("../../images/Header2.JPG");
+			@include BackgroundImageCovered("../../images/productsCompressed/Header2.JPG");
 
 			@media screen and (max-width: $mobileSize) {
 				display: hidden;
