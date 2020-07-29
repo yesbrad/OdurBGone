@@ -12,7 +12,6 @@
 	}
 
 	@media screen and (max-width: $mobileSize) {
-		@include DBorder;
 		grid-template-columns: 1fr;
 	}
 }

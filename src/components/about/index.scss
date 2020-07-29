@@ -4,7 +4,6 @@
 	// @include DBorder;
 	padding: 1rem;
 	box-sizing: border-box;
-	height: 30rem;
 
 	.about-content {
 		background-color: $black;
@@ -14,26 +13,27 @@
 
 		@media screen and (max-width: $mobileSize) {
 			grid-template-columns: 1fr;
+			grid-template-rows: 0.5fr 1fr;
 		}
 
 		.about-content-image {
 			grid-column-start: 1;
 			grid-column-end: 3;
 			@include BackgroundImageCovered("../../images/productsCompressed/promo_1.JPG");
-
-			@media screen and (max-width: $mobileSize) {
-				display: hidden;
-			}
 		}
 
 		.about-content-info {
-			padding: 4rem;
+			padding: 8rem 4rem;
 			box-sizing: border-box;
 			color: white;
 			display: flex;
 			flex-direction: column;
 			font-weight: 300;
 			
+			@media screen and (max-width: $tabletSize) {
+				padding: 6rem 2rem;
+			}
+
 			h3 {
 				font-size: 3rem;
 				font-weight: 500;

@@ -2,7 +2,6 @@
   padding: 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 30rem;
 }
 
 .about-contatiner .about-content {
@@ -18,6 +17,8 @@
   .about-contatiner .about-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    -ms-grid-rows: 0.5fr 1fr;
+        grid-template-rows: 0.5fr 1fr;
   }
 }
 
@@ -31,14 +32,8 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 700px) {
-  .about-contatiner .about-content .about-content-image {
-    display: hidden;
-  }
-}
-
 .about-contatiner .about-content .about-content-info {
-  padding: 4rem;
+  padding: 8rem 4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
@@ -50,6 +45,12 @@
       -ms-flex-direction: column;
           flex-direction: column;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-contatiner .about-content .about-content-info {
+    padding: 6rem 2rem;
+  }
 }
 
 .about-contatiner .about-content .about-content-info h3 {
