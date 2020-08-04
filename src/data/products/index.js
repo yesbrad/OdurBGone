@@ -1,6 +1,6 @@
 const data = [
 	{
-		name: '20x8g Cassette Toilet Tablets Pouch',
+		name: '20x30g Holding Tank Toilet Tablets',
 		shortDescription: 'With 10x2g Mini Oxygen Tablets',
 		description: `HOLDING TANKS: - Depending on the size of the tank I recommend using 1 x 30 gram tablet (white) for 7 days usage , add more as required. The tablet is similar to the 8 gram but more economical for such tanks.If you have a boat/yacht etc sea water can be used and with a Masurator suggest crush the tablet install pieces to prevent from jamming. If you have the small bottle Mini tabs enclosed in your packaging I suggest use the same method as shown above for the bowl & seat.
 
@@ -19,15 +19,13 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Safe in sewer and septic tanks systems',
 		],
 		image: require('../../images/productsCompressed/2.JPG'),
-		width: 1
+		width: 1,
 	},
 	{
-		name: '40x8g Cassette Toilet Tablets Box',
+		name: '40x30g  Holding Tank Toilet Tablets',
 		shortDescription: '',
-		description: `HOLDING TANKS: - Depending on the size of the tank I recommend using 1 x 30 gram tablet (white) for 7 days usage , add more as required. The tablet is similar to the 8 gram but more economical for such tanks.If you have a boat/yacht etc sea water can be used and with a Masurator suggest crush the tablet install pieces to prevent from jamming. If you have the small bottle Mini tabs enclosed in your packaging I suggest use the same method as shown above for the bowl & seat.
-
-The Mini Oxygen Tab in a spray bottle lasts around 3 weeks can be used in the kitchen, Bathroom on bench tops etc and has NO perfume.
-
+		description: `HOLDING TANKS: - Depending on the size of the tank I recommend using 1 x 30 gram tablet (white) for 7 days usage , add more as required. The tablet is similar to the 8 gram but more economical for such tanks.If you have a boat/yacht etc sea water can be used and with a Masurator suggest crush the tablet install pieces to prevent from jamming.
+		Mini Oxygen Tablets at not included in the 40x30g box.
 GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corner of theshower base , this will clean out the pipe lines leading to the tank, also can be placed directly intothe tank.
 		`,
 		specifications: [
@@ -60,7 +58,8 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],		image: require('../../images/productsCompressed/3.JPG'),
-		width: 1
+		width: 1,
+		isNew: true,
 	},
 	{
 		name: '25x8g RV Toilet Tablets',
@@ -80,6 +79,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Safe in sewer and septic tanks systems',
 		],		image: require('../../images/productsCompressed/4.JPG'),
 		// width: 3,
+		isNew: true,
 	},
 	{
 		name: '10x8g RV Toilet Tablets',
@@ -98,6 +98,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Safe in sewer and septic tanks systems',
 		],		image: require('../../images/productsCompressed/5.JPG'),
 		// width: 3,
+		isNew: true,
 	},
 	{
 		name: '10x2g Mini Oxygen Tablet Box',
@@ -114,7 +115,8 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],		image: require('../../images/productsCompressed/6.JPG'),
-		// width: 3,
+		// width: 3
+		isNew: true,
 	},
 ]
 

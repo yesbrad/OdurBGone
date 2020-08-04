@@ -32,22 +32,22 @@ const ProductCard = ({ product }) => {
 		<div className="product-card-container" id={product.width === 3 ? 'product-full' : ''} >
 			<div className="product-card-content"  style={{ backgroundImage: `url(${product.image})`}}>
 				<animated.div style={trans} className="product-info">
-					<animated.h2 style={headerProps}>{product.name}</animated.h2>
+					<animated.div className="product-title-container" style={headerProps}>
+						<h2>{product.name}</h2>
+					</animated.div>
 					<div className="product-desctiption-container">
 						<animated.span style={shortDescriptionProps}>{product.shortDescription}</animated.span>
 						<animated.div className="product-description-paragraph" style={descriptionProps}>{product.description.split('\n').map((item, i) => {
 							return <span key={i}>{item}</span>;
 						})}</animated.div>
 					</div>
-					{/* <animated.div style={descriptionProps} className="product-specs">
-						<h2>Specifictations</h2>
-						{product.specifications.map((spec, index) => {
-							return <span>{`${index + 1}. ${spec}`}</span>
-						})}
-					</animated.div> */}
 					<animated.button style={chevProps} onClick={() => setIsOpen(!isOpen)}><FaChevronUp size="2rem" /></animated.button>
 					<animated.span style={shortDescriptionProps} className="product-moreinfo">More Info</animated.span>
+					{product.isNew && <animated.div style={shortDescriptionProps} className="product-new-release">
+						<h5>New!</h5>
+					</animated.div>}
 				</animated.div>
+
 			</div>
 		</div>
 	);
