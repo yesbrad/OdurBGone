@@ -151,7 +151,7 @@ export const qldData = [
 	},
 	{
 		name: 'Bayside  Caravan Spares',
-		address: 'Shop  2  8-16 Redlands  Bay  Road Capalaba 4157',
+		address: 'Shop  2  8-16 Redlands Bay Road Capalaba 4157',
 		phone: '07 3390 3940'
 	},
 	{
@@ -175,7 +175,7 @@ export const qldData = [
 		phone: '07 5422 0777'
 	},
 	{
-		name: ' Safety & Camping',
+		name: 'Bowen Safety & Camping',
 		address: '39 Powell Street Bowen 4805',
 		phone: '07 4786 2413'
 	},

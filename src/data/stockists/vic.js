@@ -21,7 +21,7 @@ export const vicData = [
 	},
 	{
 		name: 'Road Tech Marine',
-		address: '10 Vimy  Street Reservoir',
+		address: '10 Vimy Street Reservoir',
 		phone: '03 9460 7884'
 	},
 	{
@@ -59,8 +59,8 @@ export const vicData = [
 		phone: '9791 6599'
 	},
 	{
-		name: 'Road Tech Marine ',
-		address: '15 Dandenong -Frankston Road Dandenong 3175',
+		name: 'Road Tech Marine (CLOSED)',
+		address: '15 Dandenong-Frankston Road Dandenong 3175',
 		phone: '9793 9400'
 	},
 	{
@@ -75,7 +75,7 @@ export const vicData = [
 	},
 	{
 		name: 'Lyal Eales Stores',
-		address: '178 -180 High Street Maryborough',
+		address: '178-180 High Street Maryborough',
 		phone: ' 03 5461 1911'
 	},
 	{

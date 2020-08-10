@@ -6,7 +6,7 @@ export const nswData = [
 	},
 	{
 		name: 'Watsons Caravans Port Macquarie',
-		address: '187 Hastings River DrivePort Macquarie NSW 2444',
+		address: '187 Hastings River Drive Port Macquarie NSW 2444',
 		phone: '02 6583 8870'
 	},
 	{
@@ -15,28 +15,28 @@ export const nswData = [
 		phone: '02 6762 1033'
 	},
 	{
-		name: 'Tamworth FishingTackle&The Great Outdoors',
+		name: 'Tamworth Fishing Tackle & The Great Outdoors',
 		address: '15 Roderick Street Tamworth NSW 2340',
 		phone: '02 6766 7100'
 	},
 	{
 		name: 'Kempsey Camping World',
-		address: '60 Smith StreetKempsey NSW 2440 ',
+		address: '60 Smith Street Kempsey NSW 2440 ',
 		phone: '02 6562 4554 '
 	},
 	{
 		name: 'Coast to Coast  RV Services',
-		address: '3 George Young StreetAuburn NSW 2144',
+		address: '3 George Young Street Auburn NSW 2144',
 		phone: '02 9645 7600'
 	},
 	{
 		name: 'Sydney RV Centre',
-		address: '1404 Pittwater RoadNarrabeen NSW 2101',
+		address: '1404 Pittwater Road Narrabeen NSW 2101',
 		phone: '02 9979 4449'
 	},
 	{
 		name: 'Just Kampers Australia',
-		address: '3George Young Street Auburn NSW 2144',
+		address: '3 George Young Street Auburn NSW 2144',
 		phone: '02 9645 7660'
 	},
 	{
@@ -50,7 +50,7 @@ export const nswData = [
 		phone: '02 9757 4466'
 	},
 	{
-		name: 'ransac Agencies',
+		name: 'TRANSAC (Monavale)',
 		address: '4/6 Wilmette Place Monavale  NSW 2103',
 		phone: '02 9997 1543'
 	},
@@ -66,7 +66,7 @@ export const nswData = [
 	},
 	{
 		name: 'Road Tech Marine',
-		address: '3 Curtis RoadMc Graths Hill NSW 2756',
+		address: '3 Curtis Road McGraths Hill NSW 2756',
 		phone: '02 4577 8088'
 	},
 	{
@@ -81,18 +81,18 @@ export const nswData = [
 	},
 	{
 		name: 'Australian Motorhomes',
-		address: '31 Pacific HwyBennetts Green NSW 2290',
+		address: '31 Pacific Hwy Bennetts Green NSW 2290',
 		phone: '02 4948 0433'
 	},
 	{
 		name: 'Jayco Sydney',
-		address: '63 –67 Glossop StreetST Marys NSW 2760',
+		address: '63 –67 Glossop Street ST Marys NSW 2760',
 		phone: '02 9623 1971'
 	},
 	{
-		name: 'Kendy Caravans& Trailers',
-		address: '338 Central Coast Hwy(COAST)Erina NSW 2250',
-		phone: '02 4367 7690  '
+		name: 'Kendy Caravans & Trailers',
+		address: '338 Central Coast Hwy Erina NSW 2250',
+		phone: '02 4367 7690'
 	},
 	{
 		name: 'Jayco Gold Coast',
@@ -106,12 +106,12 @@ export const nswData = [
 	},
 	{
 		name: 'Stocks Camping Store',
-		address: '180 Bourke StreetGlen Innes NSW 2370',
+		address: '180 Bourke Street Glen Innes NSW 2370',
 		phone: '02 6732 1948'
 	},
 	{
 		name: 'Hardman Windscreens & Outdoors',
-		address: '435 Frame StreetMoree NSW 2400',
+		address: '435 Frame Street Moree NSW 2400',
 		phone: '02 6752 1066 '
 	},
 	{
@@ -135,13 +135,13 @@ export const nswData = [
 		phone: '02 6851 4334'
 	},
 	{
-		name: '7thStreet Caravans',
+		name: '7th Street Caravans',
 		address: '52 Seventh Street Boolaroo (Newcastle) 2284',
 		phone: '02 4958 5505'
 	},
 	{
 		name: 'Jayco Newcastle',
-		address: '1 Camfield DriveHeatherbrae NSW 2324  ',
+		address: '1 Camfield Drive Heatherbrae NSW 2324  ',
 		phone: '02 4964 8650'
 	},
 	{
@@ -151,7 +151,7 @@ export const nswData = [
 	},
 	{
 		name: 'East Coast Caravans',
-		address: '150 Princes HwySouth Nowra NSW 2541',
+		address: '150 Princes Hwy South Nowra NSW 2541',
 		phone: '02 4421 4565'
 	},
 	{
@@ -165,18 +165,18 @@ export const nswData = [
 		phone: ' 02 4421 4565'
 	},
 	{
-		name: 'Country Motor  Company',
-		address: '314 Princess HwyBombaderry NSW 2541',
+		name: 'Country Motor Company',
+		address: '314 Princess Hwy Bombaderry NSW 2541',
 		phone: '02 4421 0122'
 	},
 	{
 		name: 'Camping Plus Australia',
-		address: '6 Allice StreetMerimbula NSW 2548',
+		address: '6 Allice Street Merimbula NSW 2548',
 		phone: '02 4421 0122'
 	},
 	{
 		name: 'Camping Plus Australia',
-		address: '6 Allice StreetMerimbula NSW 2548',
+		address: '6 Allice Street Merimbula NSW 2548',
 		phone: '02 649 52571'
 	},
 	{
@@ -191,7 +191,7 @@ export const nswData = [
 	},
 	{
 		name: 'Coastal Caravan & RV Pty Ltd',
-		address: '144 –146 Pacific HwyTuggerah  NSW 2259',
+		address: '144 –146 Pacific Hwy Tuggerah  NSW 2259',
 		phone: '02 4353 1100'
 	},
 	{
@@ -206,12 +206,12 @@ export const nswData = [
 	},
 	{
 		name: 'Ballina Disposals & Camping',
-		address: '207 River StreetBallina  NSW 2478',
+		address: '207 River Street Ballina  NSW 2478',
 		phone: '02 6686 8622'
 	},
 	{
-		name: 'Rod,s Country Camping Gear',
-		address: '31 Ward RoadDarawank NSW 2428 ',
+		name: 'Rods Country Camping Gear',
+		address: '31 Ward Road Darawank NSW 2428 ',
 		phone: '0418 423610'
 	},
 	{
@@ -226,12 +226,12 @@ export const nswData = [
 	},
 	{
 		name: 'Jayco Canberra',
-		address: '33 Uriarra RoadQueanbeyan NSW 2620',
+		address: '33 Uriarra Road Queanbeyan NSW 2620',
 		phone: '02 6297 3019'
 	},
 	{
 		name: 'Yass Outdoor Sports & Camping',
-		address: '156 Comur StreetYass NSW 2582',
+		address: '156 Comur Street Yass NSW 2582',
 		phone: '02 62266884'
 	},
 	{
@@ -251,32 +251,32 @@ export const nswData = [
 	},
 	{
 		name: 'Intents Fishing',
-		address: 'Unit 8 / 97-103 Melbourne Street Mulwala NSW 2647',
+		address: 'Unit 8/97-103 Melbourne Street Mulwala NSW 2647',
 		phone: '03 57 431800'
 	},
 	{
-		name: 'RV OptionsGlen',
+		name: 'RV Options Glen',
 		address: '42 Harley Cres Eastwood NSW 2122',
 		phone: '04 1178 9242'
 	},
 	{
 		name: 'Boots Great Outdoors',
-		address: '44 Deering StreetUlladulla NSW 2539',
+		address: '44 Deering Street Ulladulla NSW 2539',
 		phone: '02 4455 2526'
 	},
 	{
 		name: 'ARV',
-		address: 'Princes HwyEden NSW 2551',
+		address: 'Princes Hwy Eden NSW 2551',
 		phone: '02 6496 4411'
 	},
 	{
-		name: 'Tackle World  Moruya',
-		address: 'Cnr Ford & Queen StreetsMoruya NSW 2537 ',
+		name: 'Tackle World Moruya',
+		address: 'Cnr Ford & Queen Streets Moruya NSW 2537 ',
 		phone: '02 4474 4381 '
 	},
 	{
-		name: 'Getaway CampingDot',
-		address: '37 Princes HwyUnanderra NSW 2526',
+		name: 'Getaway Camping (CLOSED)',
+		address: '37 Princes Hwy Unanderra NSW 2526',
 		phone: '024272 5036'
 	},
 ]

@@ -6,7 +6,7 @@ const data = [
 
 The Mini Oxygen Tab in a spray bottle lasts around 3 weeks can be used in the kitchen, Bathroom on bench tops etc and has NO perfume.
 
-GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corner of theshower base , this will clean out the pipe lines leading to the tank, also can be placed directly intothe tank.
+GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corner of the shower base , this will clean out the pipe lines leading to the tank, also can be placed directly intothe tank.
 		`,
 		specifications: [
 			'A great alternative to your current toilet chemical.',
@@ -25,8 +25,8 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 		name: '40x30g  Holding Tank Toilet Tablets',
 		shortDescription: '',
 		description: `HOLDING TANKS: - Depending on the size of the tank I recommend using 1 x 30 gram tablet (white) for 7 days usage , add more as required. The tablet is similar to the 8 gram but more economical for such tanks.If you have a boat/yacht etc sea water can be used and with a Masurator suggest crush the tablet install pieces to prevent from jamming.
-		Mini Oxygen Tablets at not included in the 40x30g box.
-GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corner of theshower base , this will clean out the pipe lines leading to the tank, also can be placed directly intothe tank.
+		Mini Oxygen Tablets are not included in the 40x30g box.
+GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corner of the shower base , this will clean out the pipe lines leading to the tank, also can be placed directly intothe tank.
 		`,
 		specifications: [
 			'A great alternative to your current toilet chemical.',
@@ -103,7 +103,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 	{
 		name: '10x2g Mini Oxygen Tablet Box',
 		shortDescription: 'Box of 18',
-		description: `Mini oxygen tabs for use in a spray bottle.
+		description: `Mini Oxygen tabs for use in a spray bottle.
 		The 2 gram Mini Tab (green) is used in a spray bottle, simply drop into a 400 mil bottle with cup hot water & top up with cold water, give it a shake and is ready for use. We use the spray bottle for the bowl & seat, which only takes seconds & in the heat perhaps spray the bowl 3 times a day. By spraying it is killing the bad bacteria & any odour, it is good to open the slide when spraying to allow entry into the bottom cassette.`,
 		specifications: [
 			'A great alternative to your current toilet chemical.',
