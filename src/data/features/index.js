@@ -15,9 +15,9 @@ const data = [
 	'Biodegradable',
 	'Enviro-friendly',
 	'Compact/lightweight',
-	'Relaces All other products',
+	'Replaces All other products',
 	'Can be used in other areas',
-	'Very cost effective',
+	'Very Cost Effective',
 	'TGA Option C Tested',
 	'Australian Made',
 ];

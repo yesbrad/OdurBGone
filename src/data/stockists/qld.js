@@ -10,6 +10,11 @@ export const qldData = [
 		phone: '07 5463 4114'
 	},
 	{
+		name: 'TRAIL –A- VAN CENTRE',
+		address: '24 Mansell Street Toowoomba QLD 4350',
+		phone: '07 4634 8600'
+	},
+	{
 		name: 'Road Tech Marine',
 		address: '26 Nicklin Way Kawana Waters 4575',
 		phone: '07 5478 2811'

@@ -112,7 +112,7 @@
 }
 
 .product-card-container .product-card-content .product-info .product-desctiption-container .product-description-paragraph span {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 @media screen and (max-width: 1200px) {

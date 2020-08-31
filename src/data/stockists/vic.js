@@ -1,7 +1,7 @@
 export const vicData = [
 	{
-		name: 'Award RV Super Store',
-		address: '1809 Ferntree Gully Road Ferntree Gully',
+		name: 'Award RV Superstore',
+		address: '924 Burwood Hwy Ferntree Gully VIC 3156',
 		phone: '03 9753 5511'
 	},
 	{
