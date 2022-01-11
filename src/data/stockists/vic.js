@@ -5,24 +5,9 @@ export const vicData = [
 		phone: '03 9753 5511'
 	},
 	{
-		name: 'Road Tech Marine',
-		address: '1716-1717  Sydney Road Campbellfield',
-		phone: 'Tel 03 9359 3337'
-	},
-	{
 		name: 'Time RV Centre',
 		address: '25 –27 Ainslie Road Campbellfield 3061',
 		phone: 'Tel 03 9333 0699'
-	},
-	{
-		name: 'Road Tech Marine',
-		address: '359 Ballarat Road Braybrook',
-		phone: 'Tel 03 9364 8424'
-	},
-	{
-		name: 'Road Tech Marine',
-		address: '10 Vimy Street Reservoir',
-		phone: '03 9460 7884'
 	},
 	{
 		name: 'Caravans West',
@@ -35,17 +20,13 @@ export const vicData = [
 		phone: '03 9017 7961'
 	},
 	{
-		name: 'Trakmaster Off Road',
-		address: '29 –31 Waldheim Road Bayswater 3153',
-	},
-	{
 		name: 'Bayswater Jayco',
 		address: '140 Canterbury Road Bayswater 3153',
 		phone: '9761 5022'
 	},
 	{
 		name: 'Everything Caravans',
-		address: '24 Eileen Road Clayton South 3169',
+		address: '174 Boundary Road Braeside 3195',
 		phone: '9574 1900'
 	},
 	{
@@ -59,18 +40,18 @@ export const vicData = [
 		phone: '9791 6599'
 	},
 	{
-		name: 'Road Tech Marine (CLOSED)',
-		address: '15 Dandenong-Frankston Road Dandenong 3175',
-		phone: '9793 9400'
-	},
-	{
 		name: 'South East Caravan Centre',
 		address: '700 Dandenong-Frankston Road Carrum Downs 3201',
 		phone: '1300 863117'
 	},
 	{
+		name: 'CARAVAN GEAR',
+		address: '217 Learmonth Rd, Wendouree VIC 3355',
+		phone: '03 9998 4699'
+	},
+	{
 		name: 'Page Bros  Caravans  Jayco',
-		address: '46-49 Wells Road Seaford',
+		address: '648 South Road Moorabbin 3189',
 		phone: '9786 1000'
 	},
 	{
@@ -169,9 +150,9 @@ export const vicData = [
 		phone: '03 5152 2510'
 	},
 	{
-		name: 'New Age  Caravans  Gippsland',
-		address: '603   Main  Street Bairnsdale 3875',
-		phone: '03  5152 6776'
+		name: 'New Age Caravans Gippsland',
+		address: '603 Main Street Bairnsdale 3875',
+		phone: '03 5152 6776'
 	},
 	{
 		name: 'Ian  Grants  Caravans',
@@ -184,8 +165,8 @@ export const vicData = [
 		phone: '03  5755 1818'
 	},
 	{
-		name: 'MT Beauty  Hardware  &  Drapery',
+		name: 'MT Beauty Hardware & Drapery',
 		address: '12 –14 Hollands Road, MT Beauty 3699',
-		phone: '03  5754 1999'
+		phone: '03 5754 1999'
 	},
 ]

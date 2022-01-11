@@ -10,6 +10,11 @@ export const qldData = [
 		phone: '07 5463 4114'
 	},
 	{
+		name: 'OUTBACK EQUIPMENT',
+		address: '2/ 24 Lensworth Street Coopers Plains 4108',
+		phone: '1300 854 185'
+	},
+	{
 		name: 'TRAIL –A- VAN CENTRE',
 		address: '24 Mansell Street Toowoomba QLD 4350',
 		phone: '07 4634 8600'

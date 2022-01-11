@@ -1,5 +1,10 @@
 export const waData = [
 	{
+		name: 'ABBA CARAVANS',
+		address: '8 Ambrose Street Rockingham  6168',
+		phone: '08 9529 2777'
+	},
+	{
 		name: 'Cannington RV Centre',
 		address: '1527-1531 Albany Hwy Beckenham 6107',
 		phone: '08 9356 1999'
@@ -37,11 +42,6 @@ export const waData = [
 		name: 'Joondalup Caravan Repairs',
 		address: 'Unit 13 –21 Warman Street Neerabup 6062',
 		phone: '08 9206 4933'
-	},
-	{
-		name: 'AllBoats & Caravans (CLOSED)',
-		address: '4 Hocking Road Kingsley 6026',
-		phone: '08 9309 4200'
 	},
 	{
 		name: 'Getaway Outdoors Geraldton',
@@ -97,11 +97,6 @@ export const waData = [
 		name: 'Tel-O Mac Tackle Shop',
 		address: '348 Robinson Street Carnarvon 6701',
 		phone: '08 9941 1873'
-	},
-	{
-		name: 'John Perk Carnarvon',
-		address: '477 Robinson Street Carnarvon 6701',
-		phone: '04 6845 1010'
 	},
 	{
 		name: 'ExmouthTackle & Camping  Supplies',

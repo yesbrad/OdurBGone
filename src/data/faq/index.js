@@ -4,12 +4,12 @@ const data = [
 		answer: ['No. The reason the product could destroy the oxygen , also we claim we can discharge into acompost/Bio & septic system.' ]
 	},
 	{
-		question: 'The mini tab is not dissolving in hot water what do I do?',
+		question: 'The mini tab is not dissolving in the spray bottle. What do I do?',
 		answer: ['Just use the mini tab whilst dissolving as the bubbles is the oxygen' ]
 	},
 	{
 		question: 'Can I discharge my cassette into a dump point using OBG?',
-		answer: ['Yes, you can as you are adding oxygen into the system also a Bio, Septic o, compost or sewerage system is OK.' ]
+		answer: ['Yes! You can because you are adding oxygen into the system.' ]
 	},
 	{
 		question: 'What is the difference between using a Nappy soaking product to using OBG?',

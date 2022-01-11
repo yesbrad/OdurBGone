@@ -15,6 +15,11 @@ export const nswData = [
 		phone: '02 6762 1033'
 	},
 	{
+		name: 'CAMPING COUNTRY SUPERSTORE',
+		address: '3/276  Macquarie Road Warners Bay 2282',
+		phone: '02 4956 6183'
+	},
+	{
 		name: 'Tamworth Fishing Tackle & The Great Outdoors',
 		address: '15 Roderick Street Tamworth NSW 2340',
 		phone: '02 6766 7100'
