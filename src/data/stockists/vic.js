@@ -15,6 +15,11 @@ export const vicData = [
 		phone: '0419 402603'
 	},
 	{
+		name: 'MOE CARAVAN SERVICE & REPAIR CENTRE',
+		address: '68 Waterloo Road Moe 3825',
+		phone: '03 5127 1947'
+	},
+	{
 		name: 'Malandy Outdoors Adventure',
 		address: 'Unit 11 / 7  Dunstans  Crt Thomastown 3074',
 		phone: '03 9017 7961'

@@ -1,5 +1,13 @@
 const data = [
 	{
+		question: `I'm getting a slight odour using OBG what can I do?`,
+		answer: ['Simply open bottom flap flush a little water then spray around bowl/seat (careful not to use other products)']
+	},
+	{
+		question: 'I have a cassette type toilet what is the best tablet to use, the blue or large white tablet?',
+		answer: ['Use the 8 gram blue tablet for any size cassette or portable toilet. The white tablet is more suited for large holding tanks']
+	},
+	{
 		question: 'Can I use another product with OBG ?',
 		answer: ['No. The reason the product could destroy the oxygen , also we claim we can discharge into acompost/Bio & septic system.' ]
 	},

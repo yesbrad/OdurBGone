@@ -1,4 +1,5 @@
 const data = [
+	/*
 	{
 		name: '20x30g Holding Tank Toilet Tablets',
 		shortDescription: 'With 10x2g Mini Oxygen Tablets',
@@ -21,6 +22,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 		image: require('../../images/productsCompressed/2.JPG'),
 		width: 1,
 	},
+	*/
 	{
 		name: '40x30g  Holding Tank Toilet Tablets',
 		shortDescription: '',
@@ -38,7 +40,7 @@ GREY WATER: - I recommend using the 30 gram tablet can be placed on the far corn
 			'Protects rubber seals',
 			'Safe in sewer and septic tanks systems',
 		],
-		image: require('../../images/productsCompressed/1.JPG'),
+		image: require('../../images/products_second/photoshopNewHolding.jpg'),
 		width: 1
 	},
 	{
