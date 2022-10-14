@@ -1,8 +1,23 @@
 export const qldData = [
 	{
-		name: ' Coastline RV Parts & Service',
-		address: '7/8  Centre View Drive Biggera Waters 4214',
-		phone: '07 5500 6071'
+		name: 'Tully Canegrowers Mitre 10',
+		address: '59 Butler Street Tully 4854',
+		phone: '07 4068 4900'
+	},
+	{
+		name: 'Coast To Coast RV Services (WHOLESALE ONLY)',
+		address: '48-56 Meakin Road Meadowbrook 4131',
+		phone: '07 3386 7100'
+	},
+	{
+		name: 'My Generator',
+		address: 'www.mygenerator.com.au',
+		phone: '1300 400 122'
+	},
+	{
+		name: 'Caravan RV Camping',
+		address: 'www.caravanrvcamping.com.au',
+		phone: '1800 787 278'
 	},
 	{
 		name: 'Far Outdoors',
@@ -11,8 +26,8 @@ export const qldData = [
 	},
 	{
 		name: 'OUTBACK EQUIPMENT',
-		address: '2/ 24 Lensworth Street Coopers Plains 4108',
-		phone: '1300 854 185'
+		address: '1 Murdoch Circuit Acacia Ridge 4110',
+		phone: '1300 854185'
 	},
 	{
 		name: 'TRAIL –A- VAN CENTRE',
@@ -71,7 +86,7 @@ export const qldData = [
 	},
 	{
 		name: 'Capricorn Caravan Centre',
-		address: '12 Queen Elizabeth Drive Rockhampton 4701',
+		address: 'Glenmore Road Park Ave North Rockhampton',
 		phone: '07 4927 4826'
 	},
 	{

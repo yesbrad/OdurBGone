@@ -30,14 +30,14 @@ export const nswData = [
 		phone: '02 6562 4554 '
 	},
 	{
-		name: 'Coast to Coast  RV Services',
-		address: '3 George Young Street Auburn NSW 2144',
+		name: 'Coast to Coast  RV Services (WHOLESALE ONLY)',
+		address: '1A 246 Miller Road Villawood NSW 2163',
 		phone: '02 9645 7600'
 	},
 	{
 		name: 'Sydney RV Centre',
-		address: '1404 Pittwater Road Narrabeen NSW 2101',
-		phone: '02 9979 4449'
+		address: '9/ 20 Lemko Place Penrith NSW 2101',
+		phone: '02 4722 3444'
 	},
 	{
 		name: 'Just Kampers Australia',
@@ -53,11 +53,6 @@ export const nswData = [
 		name: 'Amazon Outdoors',
 		address: '1273 The Horsley Drive Wetherill Park NSW 2164',
 		phone: '02 9757 4466'
-	},
-	{
-		name: 'TRANSAC (Monavale)',
-		address: '4/6 Wilmette Place Monavale  NSW 2103',
-		phone: '02 9997 1543'
 	},
 	{
 		name: 'Road Tech Marine',
@@ -235,7 +230,7 @@ export const nswData = [
 		phone: '02 6297 3019'
 	},
 	{
-		name: 'Yass Outdoor Sports & Camping',
+		name: 'YASS VALLEY OUTDOORS PTY LTD',
 		address: '156 Comur Street Yass NSW 2582',
 		phone: '02 62266884'
 	},

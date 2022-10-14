@@ -1,5 +1,10 @@
 export const saData = [
 	{
+		name: 'Barossa 4x4 & Outdoors',
+		address: 'Unit 5 /25-35 Tanunda Road Nuriootpa',
+		phone: '08 8562 2772'
+	},
+	{
 		name: 'A1 Caravans RV Store Plus',
 		address: '1 Kettering Road Elizabeth South 5112',
 		phone: '08 8287 0788'

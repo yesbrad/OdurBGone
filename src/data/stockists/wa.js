@@ -5,6 +5,11 @@ export const waData = [
 		phone: '08 9529 2777'
 	},
 	{
+		name: 'Coast To Cast RV Services WA (WHOLESALE ONLY)',
+		address: '1 Barrel Way Canningvale 6155',
+		phone: '08 9484 6000'
+	},
+	{
 		name: 'Cannington RV Centre',
 		address: '1527-1531 Albany Hwy Beckenham 6107',
 		phone: '08 9356 1999'
@@ -112,11 +117,6 @@ export const waData = [
 		name: 'Port Hedland Pilbara Boats n Bikes',
 		address: '3756 Cajarina Road Wedgefield 6721',
 		phone: '08 9172 2279'
-	},
-	{
-		name: 'Kununurra RedSun Sports',
-		address: '2 Papuana Street Kununurra 6743',
-		phone: '08 9168 2525'
 	},
 	{
 		name: 'Kimberley Camping & Outback  Supplies',
